@@ -4,11 +4,11 @@ import 'const/constant.dart';
 import 'screens/main_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const HvacDashboardApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class HvacDashboardApp extends StatelessWidget {
+  const HvacDashboardApp({super.key});
 
   @override
   Widget build(BuildContext context) {

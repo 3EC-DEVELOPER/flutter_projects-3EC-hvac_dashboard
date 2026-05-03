@@ -1,11 +1,11 @@
 {
-    "name": "hvac_dashboard",
-    "short_name": "hvac_dashboard",
+    "name": "3EC HVAC Dashboard",
+    "short_name": "3EC HVAC",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Responsive HVAC/BMS dashboard UI built with Flutter for Three Energy Control (3EC).",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

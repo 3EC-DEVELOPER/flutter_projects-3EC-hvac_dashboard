@@ -3,16 +3,16 @@
 
 #include <gtk/gtk.h>
 
-G_DECLARE_FINAL_TYPE(MyApplication, my_application, MY, APPLICATION,
-                     GtkApplication)
+G_DECLARE_FINAL_TYPE(HvacDashboardApplication, hvac_dashboard_application,
+                     HVAC_DASHBOARD, APPLICATION, GtkApplication)
 
 /**
- * my_application_new:
+ * hvac_dashboard_application_new:
  *
- * Creates a new Flutter-based application.
+ * Creates a new Flutter-based HVAC dashboard application.
  *
- * Returns: a new #MyApplication.
+ * Returns: a new #HvacDashboardApplication.
  */
-MyApplication* my_application_new();
+HvacDashboardApplication* hvac_dashboard_application_new();
 
 #endif  // FLUTTER_MY_APPLICATION_H_

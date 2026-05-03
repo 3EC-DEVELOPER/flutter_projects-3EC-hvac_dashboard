@@ -1,4 +1,4 @@
-package com.example.hvac_dashboard
+package com.tec.hvacdashboard
 
 import io.flutter.embedding.android.FlutterActivity
 
